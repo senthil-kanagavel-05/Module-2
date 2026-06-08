@@ -24,8 +24,8 @@ To write a python program to define a function named "result" that accepts 3  va
 
 ### PROGRAM
 ```
-#Reg.No:212223060214
-#Name:s pugazhendhi
+#Reg.No:212223060254
+#Name:SENTHIL KANAGAVEL BALASUNDARAM
 #Add your Code Here
 def result(a, b, c):
     multiplication_result = a * b * c
