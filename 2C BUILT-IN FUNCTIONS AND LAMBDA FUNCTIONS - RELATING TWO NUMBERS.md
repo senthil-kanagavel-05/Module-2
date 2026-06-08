@@ -26,8 +26,8 @@ To write a program in Python to calculate the value of the following expression 
 ### PROGRAM
 
 ```
-name-s pugazhendhi
-reg no-212223060214
+Name - SENTHIL KANAGAVEL BALASUNDARAM
+Reg no-212223060254
 
 a=lambda x,y,z:(x / 10 ) + (y / 2) * z
 x=int(input())
