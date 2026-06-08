@@ -1,40 +1,53 @@
 # Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS -  Using lambda function.
 
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+To write a program in Python to calculate the value of the following expression by using lambda function.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+1. Start  
+2. Input value of `x`  
+3. Input value of `y`  
+4. Input value of `z`  
+5. Compute `x / 10`  
+6. Compute `y / 2`  
+7. Multiply result of step 6 with `z`  
+8. Add result of step 5 and step 7  
+9. Display the final result  
+10. End
 
 ---
 
 ### PROGRAM
 
 ```
+name-s pugazhendhi
+reg no-212223060214
+
+a=lambda x,y,z:(x / 10 ) + (y / 2) * z
+x=int(input())
+y=int(input())
+z=int(input())
+print(a(x,y,z))
 
 ```
 
 ### OUTPUT
 
-```
 
-```
+![Screenshot 2025-04-30 115557](https://github.com/user-attachments/assets/ce412d94-d276-477e-afd4-f30d15cc41dd)
+
+
+
 
 ### RESULT
 
 ```
+thus the  program in Python to calculate the value of the following expression by using lambda function was executed successfully
 
 ```
