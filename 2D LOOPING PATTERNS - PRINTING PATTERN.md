@@ -4,33 +4,40 @@
 ---
 
 ### AIM  
-To write a Python program to print a triangular star pattern using loops.
+To write a  python program  to print the downward pyramid pattern of stars
+
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the integer `n` from the user using `input()`. This will determine the number of rows in the pattern.  
-3. Initialize a variable `i = 0`. This will help adjust the spacing before the stars.  
-4. Loop through rows from `0` to `n - 1`:  
-   - For each row, calculate the number of spaces to print using the formula: `((n - rows - 1) * 2) + i`.  
-   - Print the calculated number of spaces using `print(" ", end="")`.  
-   - Increment `i` by 1 after each row.  
-   - Print stars using a nested loop: the number of stars in each row is `rows + 1`, printed using `print("*", end="  ")`.  
-   - Print a newline after each row using `print("")` to move to the next line.  
-5. Terminate the program.
 
----
+1. **Start**
+2. **Input** a number `a` from the user.
+3. **Repeat** for `i` from `a` down to `1`:
+   - Repeat for `j` from `1` to `i`:
+     - Print `*` with a space (stay on the same line).
+   - Move to the next line.
+4. **End**
+
+
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No:212223060254
+#Name:SENTHIL KANAGAVEL BALASUNDARAM
 #Add Your Code Here
+a=int(input())
+for i in range(a,0,-1):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()    
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/f9bc9157-3130-4bc0-82de-fb2beeec688a)
+
 
 ### RESULT
+thus the python program  to print the downward pyramid pattern of stars was executed successfully
