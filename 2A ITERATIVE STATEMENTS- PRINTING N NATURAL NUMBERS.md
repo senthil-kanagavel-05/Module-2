@@ -20,8 +20,8 @@ To create a Python  program to print binary number pattern of n rows and m colum
 ### 🧾 Program
 
 ```python
-#Reg.NO. 212223060214
-#Name. s pugazhendhi
+#Reg.NO. 212223060254
+#Name. SENTHIL KANAGAVEL BALASUNDARAM
 #Write your Code here
 def binary_pattern(rows, columns):
     for i in range(rows):
