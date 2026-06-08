@@ -1,28 +1,44 @@
 # Exp.No:2e  
-## SEB - COMPUTING POWER
+## SEB - COUUNT NUMBERS
 
 ---
 
 ### AIM  
-To write a Python program to compute the power of a given number using an appropriate built-in function.
+To write a Python Program to count the number of digits in a number.
+
+
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Input the base number (`base`) from the user.  
-3. Input the exponent number (`exp`) from the user.  
-4. Use the built-in `pow()` function to compute the base raised to the power of the exponent.  
-5. Print the result using the `print()` function, displaying the power in a formatted output.  
-6. Terminate the program.
 
----
+1. **Start**
+2. **Input** the number `n`.
+3. **Initialize** `count = 0`.
+4. **Repeat** while `n > 0`:
+   - Increase `count` by 1.
+   - Divide `n` by 10 (discard the remainder).
+5. **Print** the value of `count`.
+6. **End**
 
 ### PROGRAM
-
 ```
+Reg no-212223060254
+Name-SENTHIL KANAGAVEL BALASUNDARAM
+write a program 
+
+n=int(input())
+count=0
+while(n >0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
 ```
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/3a32dd8b-a282-49f6-8ada-3533665ea5d0)
+
+
 ### RESULT
+Thus the Python Program to count the number of digits in a number was executed successfully
